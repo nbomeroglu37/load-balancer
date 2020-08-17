@@ -1,9 +1,9 @@
 package com.example.load_balancer.models;
 
-public class RoundRobinAbstractLoadBalancer extends AbstractLoadBalancer {
+public class RoundRobinLoadBalancer extends AbstractLoadBalancer {
     private int nextIndex;
 
-    public RoundRobinAbstractLoadBalancer() {
+    public RoundRobinLoadBalancer() {
         nextIndex = 0;
     }
 
